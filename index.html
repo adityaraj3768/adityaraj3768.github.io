@@ -1,37 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Wallet</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; padding: 0; color: #333; }
-        h1, h2 { color: #0056b3; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Wallet</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #2563eb;
+      --secondary: #1e293b;
+      --background: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #334155;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      background: linear-gradient(135deg, #eef2ff, #f8fafc);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 16px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      border: 1px solid var(--border);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--secondary);
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    section h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    section p {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .highlight {
+      background: #eff6ff;
+      border-left: 4px solid var(--primary);
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 8px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 24px;
+      }
+
+      header h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Privacy Policy for Wallet</h1>
-    <p>Effective Date: 17-01-2026</p>
-    
-    <h2>1. Information We Collect</h2>
-    <p>We collect user name, email addresses, and passwords to create and manage your account. Our app also collects data related to your expenses and incomes as part of the expense tracking functionality.</p>
-    
-    <h2>2. How We Use Your Information</h2>
-    <p>We use the collected information to manage user accounts, provide and improve our expense tracking services, and ensure the security of your data.</p>
+  <div class="container">
+    <div class="card">
+      <header>
+        <h1>Privacy Policy</h1>
+        <p>Wallet App • Effective Date: 17 January 2026</p>
+      </header>
 
-    <h2>3. Data Storage and Security</h2>
-    <p>Your data is stored securely in our database. We also use a third-party cloud hosting service to help manage and store data securely.</p>
+      <section>
+        <h2>🔐 Information We Collect</h2>
+        <p>
+          We collect your name, email address, and password to create and manage your account.
+          The app also stores expense and income data to provide expense-tracking features.
+        </p>
+      </section>
 
-    <h2>4. Third-Party Services</h2>
-    <p>We may use third-party services for analytics or other functionalities. These services have their own privacy policies to handle your data responsibly.</p>
+      <section>
+        <h2>⚙️ How We Use Your Information</h2>
+        <p>
+          Your information is used to manage accounts, process transactions, improve app
+          functionality, and ensure a secure user experience.
+        </p>
+      </section>
 
-    <h2>5. Your Privacy Rights</h2>
-    <p>You have the right to access, correct, or delete your personal information. Contact us at [your contact email] if you have any concerns.</p>
+      <section>
+        <h2>🛡️ Data Storage & Security</h2>
+        <div class="highlight">
+          <p>
+            All data is securely stored in our database. We use trusted third-party cloud
+            hosting services with industry-standard security practices to protect your data.
+          </p>
+        </div>
+      </section>
 
-    <h2>6. Changes to This Privacy Policy</h2>
-    <p>We may update this policy occasionally. Any changes will be posted on this page.</p>
+      <section>
+        <h2>🔗 Third-Party Services</h2>
+        <p>
+          We may use third-party services for analytics and performance monitoring.
+          These services operate under their own privacy policies.
+        </p>
+      </section>
 
-    <h2>7. Contact Us</h2>
-    <p>If you have any questions, please contact us at adityarajresonance2002@gmail.com.</p>
+      <section>
+        <h2>👤 Your Privacy Rights</h2>
+        <p>
+          You have the right to access, update, or delete your personal information.
+          For any requests or concerns, contact us via email.
+        </p>
+      </section>
+
+      <section>
+        <h2>📄 Policy Updates</h2>
+        <p>
+          This Privacy Policy may be updated periodically. Any changes will be reflected
+          on this page with a revised effective date.
+        </p>
+      </section>
+
+      <footer>
+        <p>
+          Contact us at
+          <a href="mailto:adityarajresonance2002@gmail.com">
+            adityarajresonance2002@gmail.com
+          </a>
+        </p>
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
